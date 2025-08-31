@@ -29,6 +29,7 @@ function ehPalíndromo($palavra){
 <?php 
      
      if(isset($_POST['palavra'])){
+        
         $palavra = $_POST['palavra'];
         echo ehPalíndromo($palavra);
      }
